@@ -1,0 +1,28 @@
+{
+  "name": "test-mern",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "nodemon --exec npx babel-node src/index.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4",
+    "morgan": "^1.10.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@vitejs/plugin-react": "^1.0.7",
+    "nodemon": "^2.0.15",
+    "vite": "^2.7.2"
+  }
+}
